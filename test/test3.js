@@ -29,4 +29,8 @@ describe('Testing our fibonacci', () => {
     it('should return 8 when given 6', () => {
         assert.equal(fib(6), 8);
     });
+
+    it('should return 13 when given 7', () => {
+        assert.equal(fib(7), 13);
+    });
     });
